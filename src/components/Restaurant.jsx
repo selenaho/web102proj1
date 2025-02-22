@@ -1,9 +1,10 @@
 import React from "react";
 
-const Restaurant = () => {
+const Restaurant = (props) => {
     return (
         <div className="Restaurant">
-            <p>testing restaurant</p>
+            <h2>{props.place}. {props.name}</h2>
+            <p>{props.location} | {props.cost}</p>
         </div>
     )
 }

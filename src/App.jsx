@@ -5,7 +5,7 @@ const App = () => {
 
   return (
     <div className="App">
-        <h1>Beli NYC Ramen Top 10</h1>
+        <h1>Beli Top 10 NYC Ramen</h1>
         <Grid />
     </div>
   )
